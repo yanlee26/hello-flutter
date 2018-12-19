@@ -1,6 +1,7 @@
 #!/bin/bash
 
-
 git add .
-git ci -m 'test'
+git ci -m $1
 git push
+
+# echo $1
